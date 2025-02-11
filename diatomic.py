@@ -8,7 +8,7 @@ def plot_acoustic_optical():
     p = np.array([90.4, 270.5, 450.3, 630.8, 810.9, 991.2, 1171.4, 1353.2])  # Phase (degree)
     
     # Swap x and y for plotting
-    p_acoustic, f_acoustic = p[:5], f[:5]
+    p_acoustic, f_acoustic = p[:5], f[:5]   # slice according to need
     p_optical, f_optical = p[5:], f[5:]
     
     # Fit 3rd-degree polynomial trend lines
